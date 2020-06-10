@@ -1,6 +1,4 @@
-FROM kriansa/steamcmd:latest
-LABEL maintainer="Daniel Pereira <daniel@garajau.com.br>"
-LABEL repository="kriansa/cs-16"
+FROM buroz/steamcmd:latest
 
 # Runtime settings
 ENV RCON_PASSWORD=""

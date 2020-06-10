@@ -15,8 +15,7 @@ services:
       - ./cstrike/motd.html:/home/steam/hlds/cstrike/motd.html:ro
       - ./cstrike/maps:/home/steam/hlds/cstrike_downloads/maps:ro
     ports:
-      - "27015:27015"
-      - "27015:27015/udp"
+      - "27020:27020/udp"
     environment:
       - RCON_PASSWORD=""
       - SV_PASSWORD=""

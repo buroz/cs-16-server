@@ -1,7 +1,6 @@
-FROM debian:9.6
+FROM debian:buster-slim
 
-LABEL maintainer="Daniel Pereira <daniel@garajau.com.br>"
-LABEL repository="kriansa/steamcmd"
+LABEL repository="untakenusername/steamcmd"
 
 # Set the timezone for this image
 ARG TIMEZONE=UTC
